@@ -1,0 +1,42 @@
+
+/*1024-1199*/
+@media screen and (max-width: 1199px){
+    #menu-options, #snacks-options, #tea-options, #drinks-options, #interior-container, #main-pluses{
+        grid-gap: 50px;
+    }
+
+    #form-container{
+        margin-right: 10px;
+        margin-left: 10px;
+        background-size: 100%;
+    }
+
+    #header, #footer, #main-pluses, #makers-container, #menu-container, #stocks, #interior, #location{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/*768-1023*/
+@media screen and (max-width: 1023px){
+    #header, #footer, #main-pluses, #makers-container, #menu-container, #stocks, #interior, #form-container, #location{
+        max-width: 1023px;
+    }
+}
+
+/*580-767*/
+@media screen and (max-width: 767px){
+
+}
+
+/*480-579*/
+@media screen and (max-width: 579px){
+
+}
+
+/*360*/
+
+/*320-479*/
+@media screen and (max-width: 479px){
+
+}
